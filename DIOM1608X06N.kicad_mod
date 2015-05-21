@@ -1,0 +1,13 @@
+(module DIOM1608X06N (layer F.Cu) (tedit 5447A251)
+  (fp_text reference DIOM1608X06N (at 0.1 1.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0.3 -2.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.8 0.6) (end 0.8 0.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.8 -0.6) (end 0.8 -0.6) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -1 -1.05) (end -1 -0.95) (layer F.SilkS) (width 0.2))
+  (pad 2 smd rect (at -0.85 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0.85 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask))
+)
